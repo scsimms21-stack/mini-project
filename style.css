@@ -203,8 +203,19 @@ social {
   border-right: 20px solid #badcee;
 }
 
+about__row {
+  justify-content: start
+}
+
+.section__title {
+  margin-bottom: 16px;
+  font-family: "Space Mono", monospace;
+  letter-spacing: 8px;
+}
+
 .section__img--wrapper {
-  
+  width: 60%;
+  padding: 0 24;
 }
 
 .section__description {
@@ -213,6 +224,14 @@ social {
   align-items: center;
 }
 
-about__row {
-  justify-content: start
+.section__description--wrapper {
+  width: 70%;
+  padding: 0 24px;
 }
+
+>section__description--para {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
